@@ -3,5 +3,6 @@
 import PackageDescription
 
 let package = Package(
-    name: "pcap-extract-audio"
+    name: "pcap-extract-audio",
+    dependencies: [.Package(url: "../cpcap", majorVersion: 0, minor: 1)]
 )
